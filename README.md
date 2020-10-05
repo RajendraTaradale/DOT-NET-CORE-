@@ -18,3 +18,5 @@ https://www.csharpstar.com/csharp-program-to-implement-binary-search-tree/
 https://studyalgorithms.com/
 
 https://cp-algorithms.com/
+
+https://www.educative.io/courses/grokking-the-system-design-interview/3jEwl04BL7Q
