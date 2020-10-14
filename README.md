@@ -21,3 +21,4 @@ https://cp-algorithms.com/
 
 https://www.educative.io/courses/grokking-the-system-design-interview/3jEwl04BL7Q
 https://lethain.com/introduction-to-architecting-systems-for-scale/
+https://www.fullstack.cafe/interview-questions/angular 
