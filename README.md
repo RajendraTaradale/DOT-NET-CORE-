@@ -23,3 +23,4 @@ https://www.educative.io/courses/grokking-the-system-design-interview/3jEwl04BL7
 https://lethain.com/introduction-to-architecting-systems-for-scale/
 https://www.fullstack.cafe/interview-questions/angular 
 https://sites.google.com/site/craigandera/craigs-stuff/scalability-considerations/five-considerations-for-large-scale-systems
+https://www.diagrameditor.com/
