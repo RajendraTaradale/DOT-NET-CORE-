@@ -24,3 +24,5 @@ https://lethain.com/introduction-to-architecting-systems-for-scale/
 https://www.fullstack.cafe/interview-questions/angular 
 https://sites.google.com/site/craigandera/craigs-stuff/scalability-considerations/five-considerations-for-large-scale-systems
 https://www.diagrameditor.com/
+
+https://www.interviewbit.com/angular-interview-questions/
