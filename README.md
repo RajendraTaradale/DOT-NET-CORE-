@@ -33,3 +33,12 @@ https://coderbyte.com/starter-course/algorithms-and-data-structures
 :green_book: https://www.interviewbit.com/angular-interview-questions/
 
 :green_book: https://sql-plsql.blogspot.com/2013/08/multiple-choice-questions-sql-server.html
+
+:green_book: .Net Core EF Content - 
+1. add-migration
+2. update-database
+3. remove-migration
+4. update-database <old_migration_name>
+5. script-migration
+
+
