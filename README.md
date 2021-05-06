@@ -34,11 +34,21 @@ https://coderbyte.com/starter-course/algorithms-and-data-structures
 
 :green_book: https://sql-plsql.blogspot.com/2013/08/multiple-choice-questions-sql-server.html
 
-:green_book: .Net Core EF Content - 
+:green_book: .Net Core EF Content Code First- 
 1. add-migration
 2. update-database
 3. remove-migration
 4. update-database <old_migration_name>
 5. script-migration
 
+:green_book: Database first approach
+
+1. Connecting to the existing database.
+2. Adding the Connection String to the AppSettings.JSON file.
+3. Installing the necessary packages.
+4. Using the Scaffold command to generate the models.
+
+The Scaffold Command: 
+-----------------------------------------
+Scaffold-DbContext {-Connection-string-in-quotations-} Microsoft.EntityFrameWorkCore.SqlServer -outputdir Repository/Models -context {-databasename-}DbContext -contextdir Repository -DataAnnotations -Force
 
