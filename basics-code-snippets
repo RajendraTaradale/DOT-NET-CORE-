@@ -1,1 +1,26 @@
 
+Swagger Installations and Steps
+
+Step 1: Version in important  
+ <TargetFramework>netcoreapp3.1</TargetFramework>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.OpenApi" Version="1.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+  </ItemGroup>
+ 
+ Step 2 : Add these line into Configure() ConfigureServices  
+   
+            services.AddSwaggerGen(options =>
+            {
+                options.SwaggerDoc("v2", new Microsoft.OpenApi.Models.OpenApiInfo
+                {
+                    Title = "Demo Test Info Service API",
+                    Version = "v2",
+                    Description = "Demo Test service for Learner",
+                });
+            });
+       
+Step 3 : Add these line into Configure() method    
+        
+      app.UseSwagger();
+      app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "Demo Test Services"));
