@@ -55,3 +55,48 @@ private readonly ILogger<UserController> logger;
             logger.LogWarning("Get Warn");
             return new string[] { "value1", "value2" };
         }
+        
+        
+NLogs
+Step 1:
+<PackageReference Include="NLog.Web.AspNetCore" Version="4.8.2" />
+
+Step 2:
+Create nlog.config file in the root of your project
+<?xml version="1.0" encoding="utf-8" ?>
+<nlog xmlns="http://www.nlog-project.org/schemas/NLog.xsd"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <!-- the targets to write to -->
+  <targets>
+    <!-- write logs to file  -->
+    <target name="allfile" xsi:type="File"
+            fileName="c:\DemoLogs\nlog-all-${shortdate}.log"/>
+  </targets>
+
+  <!-- rules to map from logger name to target -->
+  <rules>
+    <!--All logs, including from Microsoft-->
+    <logger name="*" minlevel="Trace" writeTo="allfile" />
+  </rules>
+</nlog>
+
+Step 3:
+  public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                })
+                .ConfigureLogging((hostingContext, logging) =>
+                {
+                    /* logging.ClearProviders(); Remove all the default logging providers and add only NLog*/
+                    logging.AddConfiguration(hostingContext.Configuration.GetSection("Logging"));
+                    logging.AddConsole();
+                    logging.AddDebug();
+                    logging.AddEventSourceLogger();
+                    logging.AddNLog();
+                });
+    }
+
+Step 4: Check the logs in file location 
