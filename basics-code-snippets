@@ -1,14 +1,14 @@
 
-Swagger Installations and Steps
+	:ledger: Swagger Installations and Steps
 
-Step 1: Version in important  
+	:point_right: Step 1: Version in important  
  <TargetFramework>netcoreapp3.1</TargetFramework>
   <ItemGroup>
     <PackageReference Include="Microsoft.OpenApi" Version="1.2.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
   </ItemGroup>
  
- Step 2 : Add these line into Configure() ConfigureServices  
+ 	:point_right: Step 2 : Add these line into Configure() ConfigureServices  
    
             services.AddSwaggerGen(options =>
             {
@@ -20,22 +20,22 @@ Step 1: Version in important
                 });
             });
        
-Step 3 : Add these line into Configure() method    
+:point_right: Step 3 : Add these line into Configure() method    
         
       app.UseSwagger();
       app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "Demo Test Services"));
 
-Logging exceptions in ASP.NET Core
+	:ledger: Logging exceptions in ASP.NET Core
 
-ASP.NET Core built-in logging providers
-Console
-Debug
-EventSource
-EventLog
-TraceSource
-AzureAppServicesFile
-AzureAppServicesBlob
-ApplicationInsights
+:star2: .NET Core built-in logging providers :star2:
+:star: Console
+:star: Debug
+:star: EventSource
+:star: EventLog
+:star: TraceSource
+:star: AzureAppServicesFile
+:star: AzureAppServicesBlob
+:star: ApplicationInsights
 
 using Microsoft.Extensions.Logging;
 
@@ -57,11 +57,11 @@ private readonly ILogger<UserController> logger;
         }
         
         
-NLogs
-Step 1:
+	:ledger: NLogs
+:point_right: Step 1:
 <PackageReference Include="NLog.Web.AspNetCore" Version="4.8.2" />
 
-Step 2:
+:point_right: Step 2:
 Create nlog.config file in the root of your project
 <?xml version="1.0" encoding="utf-8" ?>
 <nlog xmlns="http://www.nlog-project.org/schemas/NLog.xsd"
@@ -71,7 +71,7 @@ Create nlog.config file in the root of your project
   <targets>
     <!-- write logs to file  -->
     <target name="allfile" xsi:type="File"
-            fileName="c:\DemoLogs\nlog-all-${shortdate}.log"/>
+            fileName="c:\applogs\nlog-all-${shortdate}.log"/>
   </targets>
 
   <!-- rules to map from logger name to target -->
@@ -81,7 +81,7 @@ Create nlog.config file in the root of your project
   </rules>
 </nlog>
 
-Step 3:
+:point_right: Step 3:
   public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
@@ -99,4 +99,4 @@ Step 3:
                 });
     }
 
-Step 4: Check the logs in file location 
+:point_right: Step 4: Check the logs in file location 
