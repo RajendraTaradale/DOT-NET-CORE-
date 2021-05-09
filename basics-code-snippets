@@ -24,3 +24,34 @@ Step 3 : Add these line into Configure() method
         
       app.UseSwagger();
       app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "Demo Test Services"));
+
+Logging exceptions in ASP.NET Core
+
+ASP.NET Core built-in logging providers
+Console
+Debug
+EventSource
+EventLog
+TraceSource
+AzureAppServicesFile
+AzureAppServicesBlob
+ApplicationInsights
+
+using Microsoft.Extensions.Logging;
+
+private readonly ILogger<UserController> logger;
+
+        public UserController(ILogger<UserController> logger)
+        {
+            this.logger = logger;
+        }
+
+        // GET: api/<UserController>
+        [HttpGet]
+        public IEnumerable<string> Get()
+        {
+            logger.LogInformation("Get Called");
+            logger.LogError("Get Error");
+            logger.LogWarning("Get Warn");
+            return new string[] { "value1", "value2" };
+        }
