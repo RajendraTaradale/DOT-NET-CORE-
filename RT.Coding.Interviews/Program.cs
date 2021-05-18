@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 namespace RT.Coding.Interviews
 {
@@ -88,7 +89,6 @@ namespace RT.Coding.Interviews
 
             #endregion
 
-
             #region "Combine two arrays without duplicate values in C#"
 
             int[] itemsOne = { 2, 3, 5, 3, 7, 5 };
@@ -111,7 +111,6 @@ namespace RT.Coding.Interviews
 
             #endregion
 
-
             #region "Thread Safe Concurrent Collection in C#"
             // .Net 4 Multiple threads can safely and efficiently add or remove items from these collections, without requiring additional synchronization in user code
             //ConcurrentStack<T>
@@ -121,6 +120,152 @@ namespace RT.Coding.Interviews
             //ConcurrentDictionary<TKey, T>
 
             #endregion
+
+            #region "String is a palindrome without in built functions"
+
+            var isPal = CheckPalindromeString("madam");
+            var isNotPal = CheckPalindromeString("madams");
+
+            var name = "madam";
+
+            bool result = Enumerable.Range(0, name.Length).All(i => name[i] == name[name.Length - 1 - i]);
+
+            bool isPalindrome = name.SequenceEqual(name.Reverse());
+
+
+            char[] nameArray = name.ToCharArray();
+            Array.Reverse(nameArray);
+            string reverse = new string(nameArray);
+
+            if (name.Equals(reverse, StringComparison.OrdinalIgnoreCase))
+            {
+                Console.WriteLine($"{name} is Palindrome");
+            }
+
+            #endregion
+
+
+            #region "Count the occurrence of each character in a string input"
+            Countcharacter("Rajendra");
+            #endregion
+
+            #region "Remove duplicate characters from a string input"
+            removeduplicate("Rajendra");
+            #endregion
+
+            #region "Find all possible substring of a given string input"
+            findallsubstring("Rajendra");
+            #endregion
+
+            #region "Find the sum of digits of a positive integer"
+            SumOfDigits(253);
+            #endregion
+
+            #region "Find second largest integer in an array using only one loop"
+            int[] arr = new int[] { 102, 103, 104, 105, 106 };
+            FindSecondLargeInArray(arr);
+            #endregion
         }
+
+        static void FindSecondLargeInArray(int[] arr)
+        {
+            int max1 = int.MinValue;
+            int max2 = int.MinValue;
+            foreach (int i in arr)
+            {
+                if (i > max1)
+                {
+                    max2 = max1;
+                    max1 = i;
+                }
+                else if (i >= max2 && i != max1)
+                {
+                    max2 = i;
+                }
+            }
+            Console.WriteLine(max2);
+        }
+
+        static bool CheckPalindromeString(string str)
+        {
+            bool flag = false;
+            for (int i = 0, j = str.Length - 1; i < str.Length / 2; i++, j--)
+            {
+                if (str[i] != str[j])
+                {
+                    flag = false;
+                    break;
+                }
+                else
+                    flag = true;
+            }
+            return flag;
+        }
+
+        static void Countcharacter(string str)
+        {
+            Dictionary<char, int> characterCount = new Dictionary<char, int>();
+
+            foreach (var character in str)
+            {
+                if (character != ' ')
+                {
+                    if (!characterCount.ContainsKey(character))
+                    {
+                        characterCount.Add(character, 1);
+                    }
+                    else
+                    {
+                        characterCount[character]++;
+                    }
+                }
+
+            }
+            foreach (var character in characterCount)
+            {
+                Console.WriteLine("{0} - {1}", character.Key, character.Value);
+            }
+        }
+
+        static void removeduplicate(string str)
+        {
+            string result = string.Empty;
+
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (!result.Contains(str[i]))
+                {
+                    result += str[i];
+                }
+            }
+            Console.WriteLine(result);
+        }
+        static void findallsubstring(string str)
+        {
+            for (int i = 0; i < str.Length; ++i)
+            {
+                StringBuilder subString = new StringBuilder(str.Length - i);
+                for (int j = i; j < str.Length; ++j)
+                {
+                    subString.Append(str[j]);
+                    Console.Write(subString + " ");
+                }
+            }
+        }
+
+        static void SumOfDigits(int num)
+        {
+            int sum = 0;
+            while (num > 0)
+            {
+                sum += num % 10;
+                num /= 10;
+            }
+            Console.WriteLine(sum);
+        }
+
+
+
+
     }
 }
