@@ -34,6 +34,8 @@ https://coderbyte.com/starter-course/algorithms-and-data-structures
 
 :green_book: https://sql-plsql.blogspot.com/2013/08/multiple-choice-questions-sql-server.html
 
+:green_book: https://www.youtube.com/watch?v=0acSdHJfk64&t=633s (Logging into Elasticsearch using Serilog and viewing logs in Kibana)
+
 :green_book: .Net Core EF Content Code First- 
 1. add-migration
 2. update-database
