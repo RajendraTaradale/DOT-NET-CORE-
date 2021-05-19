@@ -36,6 +36,8 @@ https://coderbyte.com/starter-course/algorithms-and-data-structures
 
 :green_book: https://www.youtube.com/watch?v=0acSdHJfk64&t=633s (Logging into Elasticsearch using Serilog and viewing logs in Kibana)
 
+:curly_loop: https://github.com/RajendraTaradale/elastic-kibana-netcore-serilog
+
 :green_book: .Net Core EF Content Code First- 
 1. add-migration
 2. update-database
