@@ -12,6 +12,8 @@ https://coderbyte.com/starter-course/algorithms-and-data-structures
 7. Resxtester
 8. HackerEarth
 
+:green_book: https://github.com/RajendraTaradale/CleanArchitecture  Structure a .NET Solution - project separation & architecture layers
+
 :green_book: https://dev.to/tomeraitz/tricky-javascript-questions-7nk?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email
 
 :green_book: https://www.csharpstar.com/csharp-program-to-implement-binary-search-tree/
