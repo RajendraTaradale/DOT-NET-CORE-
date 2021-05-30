@@ -5,6 +5,8 @@
 
 :green_book: https://code-maze.com/ Best blogs realted to .Net core
 
+:green_book: https://dotnetcorecentral.com/ Everything .Net Core
+
 :green_book: https://sites.google.com/site/craigandera/craigs-stuff/scalability-considerations/five-considerations-for-large-scale-systems
 
 :green_book: https://sql-plsql.blogspot.com/2013/08/multiple-choice-questions-sql-server.html
