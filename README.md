@@ -16,6 +16,9 @@
 :curly_loop: https://github.com/RajendraTaradale/elastic-kibana-netcore-serilog
 
 :green_book: .Net Core EF Content Code First- 
+
+💡  https://www.learnentityframeworkcore.com/ - A to Z about EF
+
 1. add-migration
 2. update-database
 3. remove-migration
