@@ -33,6 +33,18 @@ The Scaffold Command:
 -----------------------------------------
 Scaffold-DbContext {-Connection-string-in-quotations-} Microsoft.EntityFrameWorkCore.SqlServer -outputdir Repository/Models -context {-databasename-}DbContext -contextdir Repository -DataAnnotations -Force
 
+```
+Scaffold-DbContext "Server=.\SQLExpress;Database=RTDB;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+**The -OutputDir parameter specifies the directory where we want to generate all the classes which is the Models folder in this case.
+
+Scaffold-DbContext "Server=.\;Database=RajendraDB;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Model -Context "RajendraContext" -DataAnnotations
+
+--data-annotations -> if you prefer to use Data Annotations for configuration, by specifying the -d or --data-annotations
+
+--force  -> If you want to re-scaffold the model after database schema any new changes have been made, -> by specifying the -f or --force
+
+```
 Other
 
 https://www.indeed.com/career-advice/interviewing/most-common-behavioral-interview-questions-and-answers
