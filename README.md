@@ -13,7 +13,13 @@
 
 ![Screenshot](https://github.com/RajendraTaradale/DOT-NET-CORE-/blob/master/CQRS%20Architecture%20Diagram.PNG)
 
+:curly_loop: https://github.com/Naveen512/Dotnet5.CQRS.MediatR.Pattern
+
+:curly_loop: https://github.com/Naveen512/Dotnet5CleanArchitecture
+
 💡 https://www.youtube.com/watch?v=YzOBrVlthMk - Clean ASP.NET Core API using MediatR and CQRS | Setup
+
+:green_book: https://www.learmoreseekmore.com/2021/03/dotnet5-sample-cqrs-mediatr-pattern.html
 
 :green_book: https://sites.google.com/site/craigandera/craigs-stuff/scalability-considerations/five-considerations-for-large-scale-systems
 
