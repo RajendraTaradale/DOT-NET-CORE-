@@ -7,6 +7,8 @@
 
 :green_book: https://dotnetcorecentral.com/ Everything .Net Core
 
+:curly_loop: https://github.com/RajendraTaradale/Northwind-EFCore3 Entity Framework boilerplate
+
 :green_book: https://sites.google.com/site/craigandera/craigs-stuff/scalability-considerations/five-considerations-for-large-scale-systems
 
 :green_book: https://sql-plsql.blogspot.com/2013/08/multiple-choice-questions-sql-server.html
