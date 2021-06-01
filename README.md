@@ -9,6 +9,8 @@
 
 :curly_loop: https://github.com/RajendraTaradale/Northwind-EFCore3 Entity Framework boilerplate
 
+![Screenshot](https://github.com/RajendraTaradale/DOT-NET-CORE-/blob/master/Rajendra%20taradale%20clean%20architecture.PNG)
+
 :green_book: https://sites.google.com/site/craigandera/craigs-stuff/scalability-considerations/five-considerations-for-large-scale-systems
 
 :green_book: https://sql-plsql.blogspot.com/2013/08/multiple-choice-questions-sql-server.html
