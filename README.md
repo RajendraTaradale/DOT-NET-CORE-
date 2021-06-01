@@ -11,6 +11,8 @@
 
 ![Screenshot](https://github.com/RajendraTaradale/DOT-NET-CORE-/blob/master/Rajendra%20taradale%20clean%20architecture.PNG)
 
+![Screenshot](https://github.com/RajendraTaradale/DOT-NET-CORE-/blob/master/CQRS%20Architecture%20Diagram.PNG)
+
 :green_book: https://sites.google.com/site/craigandera/craigs-stuff/scalability-considerations/five-considerations-for-large-scale-systems
 
 :green_book: https://sql-plsql.blogspot.com/2013/08/multiple-choice-questions-sql-server.html
