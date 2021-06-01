@@ -7,6 +7,26 @@
     <PackageReference Include="Microsoft.OpenApi" Version="1.2.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
   </ItemGroup>
+  ```
+   "ConnectionStrings": {
+    "sql": "Data Source=(LocalDb)\\mssqllocaldb;Initial Catalog=RTDB;Integrated Security=true;"
+  }
+  
+  //Fetching Connection string from APPSETTINGS.JSON  
+  var ConnectionString = Configuration.GetConnectionString("sql");  
+  //Entity Framework  
+  services.AddDbContext<EmployeeContext>(options => options.UseSqlServer(ConnectionString)); 
+  
+   public class EmployeeContext : DbContext  
+    {  
+        public EmployeeContext(DbContextOptions<EmployeeContext> options) : base(options)  
+        {  
+  
+        }  
+        public DbSet<tblSkill> tblSkills { get; set; }  
+        public DbSet<tblEmployee> tblEmployees { get; set; }  
+    }  
+ ```
  
  	:point_right: Step 2 : Add these line into Configure() ConfigureServices  
    
