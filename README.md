@@ -7,8 +7,8 @@
 
 :green_book: https://github.com/RajendraTaradale/LooselyCoupledMonolith - Event Choreography & Orchestration (Sagas https://codeopinion.com/) 
 
-:green_book: https://github.com/RajendraTaradale/AspNetCoreServiceBus - ASP.NET Core Azure Sevice Bus
-
+:green_book: https://github.com/RajendraTaradale/AspNetCoreServiceBus &  https://github.com/RajendraTaradale/AzureQueueDemo - ASP.NET Core Azure Sevice Bus
+            
 :green_book: https://code-maze.com/ Best blogs realted to .Net core
 
 :green_book: https://dotnetcorecentral.com/ Everything .Net Core
