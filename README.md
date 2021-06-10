@@ -3,6 +3,8 @@
 
 :green_book: https://github.com/RajendraTaradale/CleanArchitecture  Structure a .NET Solution - project separation & architecture layers.
 
+:green_book: https://github.com/RajendraTaradale/Awesome-Microservices-NetCore
+
 :green_book: https://code-maze.com/ Best blogs realted to .Net core
 
 :green_book: https://dotnetcorecentral.com/ Everything .Net Core
