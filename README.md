@@ -5,7 +5,7 @@
 
 :green_book: https://github.com/RajendraTaradale/Awesome-Microservices-NetCore - All Resources
 
-:green_book: https://github.com/RajendraTaradale/LooselyCoupledMonolith - Event Choreography & Orchestration (Sagas)
+:green_book: https://github.com/RajendraTaradale/LooselyCoupledMonolith - Event Choreography & Orchestration (Sagas https://codeopinion.com/) 
 
 :green_book: https://code-maze.com/ Best blogs realted to .Net core
 
