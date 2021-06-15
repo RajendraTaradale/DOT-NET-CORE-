@@ -12,8 +12,11 @@
 :green_book: https://github.com/RajendraTaradale/AspNetCoreServiceBus &  https://github.com/RajendraTaradale/AzureQueueDemo - ASP.NET Core Azure Sevice Bus
             
 :green_book: https://github.com/RajendraTaradale/identityserver4-in-net-core-to-secure-public-microservice - secure public microservices in .Net core using Identity server 4
-https://github.com/RajendraTaradale/API-Gateway-Implementation-with-Ocelot & https://github.com/RajendraTaradale/API-Gateway-Implementation-Ocelot-With-Authentication
-https://github.com/RajendraTaradale/identity-server-4-policy-based-authorization-.netcore 
+💡https://github.com/RajendraTaradale/API-Gateway-Implementation-with-Ocelot
+💡https://github.com/RajendraTaradale/API-Gateway-Implementation-Ocelot-With-Authentication
+💡https://github.com/RajendraTaradale/identity-server-4-policy-based-authorization-.netcore 
+💡https://github.com/RajendraTaradale/kafka-implementation-.net-core-c-
+
 :green_book: https://code-maze.com/ Best blogs realted to .Net core
 
 :green_book: https://dotnetcorecentral.com/ Everything .Net Core
