@@ -18,6 +18,8 @@
 4. https://github.com/RajendraTaradale/kafka-implementation-.net-core-c-
 5. https://github.com/RajendraTaradale/SettingUpIdentityServer
 
+:green_book: https://github.com/RajendraTaradale/S02E03-WebSockets-Vs-SignalR - WebSockets or SignalR (https://dotnetplaybook.com/which-is-best-websockets-or-signalr/)
+
 :green_book: https://code-maze.com/ Best blogs realted to .Net core
 
 :green_book: https://dotnetcorecentral.com/ Everything .Net Core
