@@ -17,6 +17,7 @@
 3. https://github.com/RajendraTaradale/identity-server-4-policy-based-authorization-.netcore 
 4. https://github.com/RajendraTaradale/kafka-implementation-.net-core-c-
 5. https://github.com/RajendraTaradale/SettingUpIdentityServer
+6. https://github.com/RajendraTaradale/mvcarchitecture
 
 :green_book: https://github.com/RajendraTaradale/S02E03-WebSockets-Vs-SignalR - WebSockets or SignalR (https://dotnetplaybook.com/which-is-best-websockets-or-signalr/)
 
