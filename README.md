@@ -1,4 +1,4 @@
-# 🚦 DOT-NET-CORE- 📕 📗 📘 📙 🚩  
+# 🚦 DOT-NET-CORE- 📗 📙  
 .Net Core Security
 
 :green_book: https://github.com/RajendraTaradale/CleanArchitecture  Structure a .NET Solution - project separation & architecture layers.
@@ -83,6 +83,8 @@ Scaffold-DbContext "Server=.\;Database=RajendraDB;Trusted_Connection=True;" Micr
 # Blazor .Net 5.0
 
 📙 https://github.com/RajendraTaradale/CleanArchitecture-1 - Blazor Project Strucrture - All in One
+
+📙 https://github.com/RajendraTaradale/blazor-demo - Basics of all features + Youtube
 
 # Other
 
