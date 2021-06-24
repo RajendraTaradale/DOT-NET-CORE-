@@ -80,7 +80,11 @@ Scaffold-DbContext "Server=.\;Database=RajendraDB;Trusted_Connection=True;" Micr
 --force  -> If you want to re-scaffold the model after database schema any new changes have been made, -> by specifying the -f or --force
 
 ```
-Other
+# Blazor .Net 5.0
+
+📙 https://github.com/RajendraTaradale/CleanArchitecture-1 - Blazor Project Strucrture - All in One
+
+# Other
 
 https://www.indeed.com/career-advice/interviewing/most-common-behavioral-interview-questions-and-answers
 https://coderbyte.com/starter-course/algorithms-and-data-structures
