@@ -5,6 +5,8 @@
 
 :green_book: https://github.com/RajendraTaradale/Awesome-Microservices-NetCore - All Resources
 
+:green_book: https://github.com/RajendraTaradale/CleanArchitecture.WebApi - Core API with search template ASP.NET Core WebAPI Clean Architecture in VS project template
+
 :green_book: https://github.com/RajendraTaradale/LooselyCoupledMonolith - Event Choreography & Orchestration (Sagas https://codeopinion.com/) 
 
 :green_book: https://github.com/RajendraTaradale/run-aspnetcore-microservices Microservices with .net tools on real-world e-commerce microservices project;
