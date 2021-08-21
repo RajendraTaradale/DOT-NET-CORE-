@@ -1,5 +1,6 @@
 # 🚦 DOT-NET-CORE- 📗 📙  
 .Net Core Security
+⏯️ https://github.com/T0shik
 
 :green_book: https://github.com/RajendraTaradale/CleanArchitecture  Structure a .NET Solution - project separation & architecture layers.
 
@@ -7,7 +8,9 @@
  
 :green_book: https://github.com/RajendraTaradale/Awesome-Microservices-NetCore - All Resources
 
-:green_book: https://github.com/RajendraTaradale/CleanArchitecture.WebApi - Core API with search template ASP.NET Core WebAPI Clean Architecture in VS project template (https://marketplace.visualstudio.com/items?itemName=MukeshMurugan.CleanArchitectureWebApi)
+:green_book: https://github.com/RajendraTaradale/CleanArchitecture.WebApi - ASP.NET Core WebAPI Clean Architecture in VS project template
+
+⏯️ https://marketplace.visualstudio.com/items?itemName=MukeshMurugan.CleanArchitectureWebApi
 
 :green_book: https://github.com/RajendraTaradale/LooselyCoupledMonolith - Event Choreography & Orchestration (Sagas https://codeopinion.com/) 
 
