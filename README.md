@@ -1,4 +1,4 @@
-# 🚦 DOT-NET-CORE- 📗 📙  
+# 🚦 DOT-NET-CORE-
 .Net Core Security
 ⏯️ https://github.com/T0shik
 
